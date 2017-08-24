@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvNoGrabacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lvResultado"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:text="@string/toca_fuera"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#215508" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/tvNoGrabacion"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/tvNoGrabacion"
+        android:contentDescription="@string/descripcion_flecha"
+        android:src="@drawable/flecha" />
+
+</RelativeLayout>

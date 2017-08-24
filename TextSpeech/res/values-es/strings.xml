@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Audio Notas</string>
+    <string name="titulo_seccion1">Grabaciones</string>
+    <string name="titulo_seccion2">Grabador</string>
+    <string name="grabador_ahora">Habla ahora</string>
+    <string name="resultado">Selecciona una opción:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="toca_fuera">Toca fuera o \"back\" para salir</string>
+    <string name="descripcion_flecha">Presiona boton back</string>
+    <string name="error_guarda">No se ha entendido nada</string>
+    <string name="grabacion_guardada">Se ha guardado tu grabación</string>
+    <string name="no_grabacion">No existe ninguna grabación</string>
+    <string name="tono">Tono</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="presione">Presiona el micro para hablar</string>
+
+</resources>

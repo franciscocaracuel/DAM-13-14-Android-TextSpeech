@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNoGrabacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#005500"
+        android:text="@string/no_grabacion" />
+
+    <ListView
+        android:id="@+id/lvGrabaciones"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:paddingTop="5dp"
+        android:background="#DD045C09" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tono" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/velocidad" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DD045C09"
+        android:paddingBottom="15dp" >
+
+        <SeekBar
+            android:id="@+id/sbTono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:thumb="@drawable/micro_sb"
+            android:progressDrawable="@drawable/progress_sb"
+            android:progress="10"
+            android:max="20" />
+
+        <SeekBar
+            android:id="@+id/sbVelocidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:thumb="@drawable/micro_sb"
+            android:progressDrawable="@drawable/progress_sb"
+            android:progress="10"
+            android:max="20" />
+
+    </LinearLayout>
+
+</LinearLayout>

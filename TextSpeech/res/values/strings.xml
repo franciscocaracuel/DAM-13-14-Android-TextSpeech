@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Keep voice notes</string>
+    <string name="titulo_seccion1">Recordings</string>
+    <string name="titulo_seccion2">Recorder</string>
+    <string name="grabador_ahora">Speak now</string>
+    <string name="resultado">Select a option:</string>
+    <string name="cancelar">Cancel</string>
+    <string name="toca_fuera">Press go back to exit</string>
+    <string name="descripcion_flecha">Press go back</string>
+    <string name="error_guarda">I not understand</string>
+    <string name="grabacion_guardada">Record saved</string>
+    <string name="no_grabacion">Not exist record</string>
+    <string name="tono">Pitch</string>
+    <string name="velocidad">Speech rate</string>
+    <string name="presione">Press microphone to speak</string>
+
+</resources>
